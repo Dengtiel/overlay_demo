@@ -26,7 +26,5 @@
 
 ## 📸 Screenshots
 
-<p align="center">
-  <img src="screenshots/OverlayDemo1.png" width="250" />
-  <img src="screenshots/OverlayDemo2.png" width="250" />
-</p>
+![App Screenshot](screenshots/OverlayDemo1.png)
+![App Screenshot](screenshots/OverlayDemo2.png)
