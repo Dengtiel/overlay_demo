@@ -1,16 +1,30 @@
-# overlay_demo
+# Overlay Widget Demo
 
-A new Flutter project.
+**One-liner:** The `Overlay` widget renders floating UI layers on top of the entire app, perfect for tooltips, popovers, and custom modals.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## Run Instructions
 
-A few resources to get you started if this is your first Flutter project:
+1. Make sure Flutter is installed: https://docs.flutter.dev/get-started/install
+2. Clone the repo: `git clone https://github.com/YOUR_USERNAME/overlay_demo.git`
+3. Navigate in: `cd overlay_demo`
+4. Get packages: `flutter pub get`
+5. Run: `flutter run`
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Three Attributes Covered
+
+| Property | Type | What It Does |
+|---|---|---|
+| `opaque` | `bool` | Blocks interaction with widgets behind the overlay when `true` |
+| `maintainState` | `bool` | Keeps the overlay's widget state alive when `true`, even while hidden |
+| `builder` | `WidgetBuilder` | Required callback that returns the widget tree displayed by the overlay |
+
+---
+
+## 📸 Screenshots
+
+![App Screenshot](screenshots/OverlayDemo1.png)
+![App Screenshot](screenshots/OverlayDemo2.png)
